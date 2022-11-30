@@ -11,7 +11,7 @@ on:
     
   schedule:  
   # 代表国际标准时间00点01分，北京时间需要+8小时，代表北京时间上午8点01运行 
-  - cron: '01 00 * * *' 
+  - cron: '00 08 * * *' 
 permissions:
   contents: read
 
