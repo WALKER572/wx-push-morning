@@ -329,8 +329,8 @@ if now_time<=24 and now_time>=11:
     eat = get_goodnight_words()
     m_n_a = "[ 记得晚上早点睡觉哈，然后做个好梦！]"
 
-#数据整理
-data = {"m_n_a":{"value":m_n_a,"color":get_random_color()},
+#数据整理 "m_n_a":{"value":m_n_a,"color":get_random_color()},
+data = {
         "eat":{"value":eat,"color":get_random_color()},
         "daytime":{"value":get_weekday(),"color":get_random_color()},
         "city1":{"value":city1,"color":get_random_color()},
