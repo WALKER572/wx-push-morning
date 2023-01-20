@@ -306,7 +306,7 @@ wea1, temperature1 = get_weather(city1)
 wea2, temperature2 = get_weather(city1)
 
 #计算到春节的天数
-j_yd, j_cj = get_spr("01-01","01-12")
+j_yd, j_cj = get_spr("01-01","01-22")
 #如果温度过高，提示语
 sid=""
 if temperature1>=23:
