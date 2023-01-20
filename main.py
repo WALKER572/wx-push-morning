@@ -237,8 +237,8 @@ def get_spr(yd,sp):
 
   next2 = datetime.strptime(str(date.today().year) + "-" + sp, "%Y-%m-%d")
   if next2 < datetime.now()+timedelta(hours=8):
-      next2 = next2.replace(year=next2.year + 1)
-      j_cj = (next2 - today).days
+    next2 = next2.replace(year=next2.year + 1)
+    j_cj=(next2 - today).days
 
   return j_yd,j_cj
 
